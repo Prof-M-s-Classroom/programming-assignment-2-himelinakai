@@ -1,0 +1,45 @@
+1 | On the morning of your 18th birthday, you receive a letter about the mysterious disappearance of your mother.
+Do you open (1) open the letter or (2) ignore it and stuff it in a drawer. | 2 | 3
+
+------------------
+
+2 | Turns out that your mother left because she had a dangerous secret, and only you could find her one day.
+Will you accept this quest? (1) Yes or (2) No | 4 | 5
+
+3 | A week later, a strange curiosity compels you to open the letter. Turns out your mother left because she had a
+dangerous secret, and only you could find her one day. Will you accept this quest? (1) Yes or (2) No  | 4 | 5
+
+------------------
+
+4 | You pack quickly and leave in secret. While leaving, your best friend Finn catches you. Do you (1) bring him on
+your journey or (2) lie and continue on alone? | 6 | 7
+
+5 | You go on with your life until one night your house is under attack. You flee into the woods and are met with a
+fork in the road. Will you go (1) right or (2) left? | 8 | 9
+
+------------------
+
+6 | While traveling through the woods, you and Finn encounter a hooded figure. He gives a riddle. If you answer
+correctly, he will give you a shortcut. If not, you will continue unguided. Here it is: What speaks without a mouth and
+hears without ears? (1) a telephone or (2) an echo | 10 | 11
+
+7 | While traveling through the woods, you hear a strange whisper. It sounds like it's whispering your mother's name.
+Do you (1) follow the whisper or (2) ignore it and carry on? | 12 | 13
+
+8 | Down the right path, there is a cave that you enter and find a journal - it has your mother's name on it. Do you
+(1) grab it and run or (2) read it right now? | 14 | 15
+
+9 | Down the left path, you hear a strange whisper. It sounds like it's whispering your mother's name. Do you (1) follow the
+whisper or (2) ignore it and carry on? | 12 | 13
+
+------------------
+
+10 | Oh no! You'll have to carry on without guidance. Think hard, where do you think your mother might be after all of
+this time? (1) Childhood hut deep in the woods or (2)
+11 | right
+
+12 | follow whisper
+13 | ignore
+
+
+
