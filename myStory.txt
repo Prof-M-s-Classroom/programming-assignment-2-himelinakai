@@ -3,19 +3,19 @@ Do you open (1) open the letter or (2) ignore it and stuff it in a drawer. | 2 |
 
 ------------------
 
-2 | Turns out that your mother left because she had a dangerous secret, and only you could find her one day.
+2 | Turns out that your mother left because she had to go into hiding, but she is alive, and only you could find her one day.
 Will you accept this quest? (1) Yes or (2) No | 4 | 5
 
-3 | A week later, a strange curiosity compels you to open the letter. Turns out your mother left because she had a
-dangerous secret, and only you could find her one day. Will you accept this quest? (1) Yes or (2) No  | 4 | 5
+3 | A week later, a strange curiosity compels you to open the letter. Turns out your mother left because she had to go into
+hiding, but she is alive, and only you could find her one day. Will you accept this quest? (1) Yes or (2) No  | 4 | 5
 
 ------------------
 
 4 | You pack quickly and leave in secret. While leaving, your best friend Finn catches you. Do you (1) bring him on
 your journey or (2) lie and continue on alone? | 6 | 7
 
-5 | You go on with your life until one night your house is under attack. You flee into the woods and are met with a
-fork in the road. Will you go (1) right or (2) left? | 8 | 9
+5 | You go on with your life until one night your house is under attack, it looks like the king's guards.
+You flee into the woods and are met with a fork in the road. Will you go (1) right or (2) left? | 8 | 9
 
 ------------------
 
@@ -35,11 +35,36 @@ whisper or (2) ignore it and carry on? | 12 | 13
 ------------------
 
 10 | Oh no! You'll have to carry on without guidance. Think hard, where do you think your mother might be after all of
-this time? (1) Childhood hut deep in the woods or (2)
-11 | right
+this time? (1) You do know! or (2) No clue, return home | 16 | 17
 
-12 | follow whisper
-13 | ignore
+11 | Correct! The hooded figure suggests you should journey to your childhood home deep in the woods. Do you (1) remember
+where it is or (2) want to return home? | 16 | 17
 
+12 | You move closer and the whisper starts to sound more and more familiar. It begins to whisper another word - "home".
+Do you think it's (1) telling you to go find your old home or (2) return home from here? | 16 | 17
+
+13 | Good call, the whisper could've been a trap! Time to carry on. Think hard, where do you think your mother might be
+after all of this time? (1) You do know! or (2) No clue, return home | 16 | 17
+
+14 | Phew, you made it out before anything could happen. Take a look at the journal, is there any useful info about your
+mother's location? (1) Yes! You know exactly where to go now! or (2) Nope, nothing and you have no clue where to look.
+| 16 | 17
+
+15 | Oh no! The cave is closing up because something - or someone - noticed the journal has been touched. You have to
+make a run for it. You cut to the right and barely make it out, journal in hand. Once you've escaped, you open the journal
+and read it. The words seem to be a cryptic message about her location. Maybe only you can understand it. (1) Yes!
+You can decipher it! or (2) Nope, it means nothing and you have no clue where to look. | 16 | 17
+
+------------------
+
+16 | You arrive at your old home, an old cottage in the woods that you haven't been back to in years. You see a faint light
+from inside, walk up to the door and gently push it open. There she is, your mother after all of this time, standing in
+the middle of the room. She smiles and runs to hug you. She explains that she had to go into hiding because she knew
+secrets about the king that could change everything. You and her will figure out how to handle the king and
+anything else that comes your way - together. | -1 | -1
+
+
+17 | Unsuccessful, you return home. Maybe someday you will find and reunite with your mother, but today is not that day.
+| -1 | -1
 
 
