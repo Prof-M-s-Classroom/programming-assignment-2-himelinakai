@@ -12,7 +12,7 @@ int main() {
     myGame.loadStoryFromFile(filename, delimiter);
 
     // Start the game
-    myGame.playGame();
+   // myGame.playGame();
 
     return 0;
 }
