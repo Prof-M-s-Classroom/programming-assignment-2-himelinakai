@@ -22,7 +22,6 @@ public:
 
     // TODO: Function to load story data from a text file and build the binary tree
     void loadStoryFromFile(const std::string& filename, char delimiter) {
-        //std::ifstream file("C:\\Users\\honuk\\CS210\\programming-assignment-2-himelinakai\\story.txt");
         ifstream file(filename);
         if(!file.is_open()) {
             cerr << "Error opening the story file." << endl;
@@ -38,15 +37,19 @@ public:
 
             getline(ss, eventID, delimiter);
             eventNum = stoi(eventID);
+            //cout << eventNum << endl;
             eventIDs.push_back(eventNum);
 
             getline(ss, desc, delimiter);
+            //cout << desc << endl;
 
             getline(ss, left, delimiter);
             leftNum = stoi(left);
+            //cout << leftNum << endl;
 
             getline(ss, right, delimiter);
             rightNum = stoi(right);
+            //cout << rightNum << endl;
 
             Story newStory(desc, eventNum, leftNum, rightNum);
             if (eventList.find(eventNum) == eventList.end()) {
@@ -54,13 +57,13 @@ public:
                 eventList[eventNum] = newEvent;
             }
 
-            cout << eventList[eventNum]->data.leftEventNumber << endl;
+            //cout << eventList[eventNum]->data.eventNumber << endl;
 
             if (root == nullptr) {
                 root = eventList[eventNum];
             }
 
-            cout << root->data.leftEventNumber << endl;
+            //cout << root->data.leftEventNumber << endl;
 
         }
 
@@ -76,6 +79,7 @@ public:
             }
         }
 
+        eventIDs.clear();
         file.close();
 
     }

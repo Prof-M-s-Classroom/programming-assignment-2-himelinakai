@@ -1,35 +1,17 @@
-1 | On the morning of your 18th birthday, you receive a letter about the mysterious disappearance of your mother. Do you open (1) open the letter or (2) ignore it and stuff it in a drawer. | 2 | 3
-
-2 | Turns out that your mother left because she had to go into hiding, but she is alive, and only you could find her one day. Will you accept this quest? (1) Yes or (2) No | 4 | 5
-
-3 | A week later, a strange curiosity compels you to open the letter. Turns out your mother left because she had to go into hiding, but she is alive, and only you could find her one day. Will you accept this quest? (1) Yes or (2) No  | 4 | 5
-
-4 | You pack quickly and leave in secret. While leaving, your best friend Finn catches you. Do you (1) bring him on your journey or (2) lie and continue on alone? | 6 | 7
-
-5 | You go on with your life until one night your house is under attack, it looks like the king's guards. You flee into the woods and are met with a fork in the road. Will you go (1) right or (2) left? | 8 | 9
-
-6 | While traveling through the woods, you and Finn encounter a hooded figure. He gives a riddle. If you answer correctly, he will give you a shortcut. If not, you will continue unguided. Here it is: What speaks without a mouth and hears without ears? (1) a telephone or (2) an echo | 10 | 11
-
-7 | While traveling through the woods, you hear a strange whisper. It sounds like it's whispering your mother's name. Do you (1) follow the whisper or (2) ignore it and carry on? | 12 | 13
-
-8 | Down the right path, there is a cave that you enter and find a journal - it has your mother's name on it. Do you (1) grab it and run or (2) read it right now? | 14 | 15
-
-9 | Down the left path, you hear a strange whisper. It sounds like it's whispering your mother's name. Do you (1) follow the whisper or (2) ignore it and carry on? | 12 | 13
-
-10 | Oh no! You'll have to carry on without guidance. Think hard, where do you think your mother might be after all of this time? (1) You do know! or (2) No clue, return home | 16 | 17
-
-11 | Correct! The hooded figure suggests you should journey to your childhood home deep in the woods. Do you (1) remember where it is or (2) want to return home? | 16 | 17
-
-12 | You move closer and the whisper starts to sound more and more familiar. It begins to whisper another word - "home". Do you think it's (1) telling you to go find your old home or (2) return home from here? | 16 | 17
-
-13 | Good call, the whisper could've been a trap! Time to carry on. Think hard, where do you think your mother might be after all of this time? (1) You do know! or (2) No clue, return home | 16 | 17
-
-14 | Phew, you made it out before anything could happen. Take a look at the journal, is there any useful info about your mother's location? (1) Yes! You know exactly where to go now! or (2) Nope, nothing and you have no clue where to look. | 16 | 17
-
-15 | Oh no! The cave is closing up because something - or someone - noticed the journal has been touched. You have to make a run for it. You cut to the right and barely make it out, journal in hand. Once you've escaped, you open the journal and read it. The words seem to be a cryptic message about her location. Maybe only you can understand it. (1) Yes! You can decipher it! or (2) Nope, it means nothing and you have no clue where to look. | 16 | 17
-
-16 | You arrive at your old home, an old cottage in the woods that you haven't been back to in years. You see a faint light from inside, walk up to the door and gently push it open. There she is, your mother after all of this time, standing in the middle of the room. She smiles and runs to hug you. She explains that she had to go into hiding because she knew secrets about the king that could change everything. You and her will figure out how to handle the king and anything else that comes your way - together. | -1 | -1
-
-17 | Unsuccessful, you return home. Maybe someday you will find and reunite with your mother, but today is not that day. | -1 | -1
-
-
+1 | On your 18th birthday, you receive a letter about your missing mother. Do you (1) open the letter or (2) ignore it? | 2 | 3
+2 | The letter reveals your mother went into hiding and only you can find her. Will you accept the quest? (1) Yes or (2) No | 4 | 5
+3 | A week later, curiosity drives you to open the letter. It says your mother is alive and you must find her. Will you accept? (1) Yes or (2) No | 4 | 5
+4 | You pack and leave secretly. Your friend Finn catches you. Do you (1) bring him or (2) go alone? | 6 | 7
+5 | Your house is attacked by the king's guards. You flee and reach a fork in the road. Will you go (1) right or (2) left? | 8 | 9
+6 | You and Finn meet a hooded figure who gives a riddle. Answer right for a shortcut. What speaks without a mouth and hears without ears? (1) telephone or (2) echo | 10 | 11
+7 | You hear a whisper calling your mother's name. Do you (1) follow it or (2) ignore it? | 12 | 13
+8 | You find a cave and inside is a journal with your mother's name. Do you (1) grab it and run or (2) read it now? | 14 | 15
+9 | You hear the whisper again. Do you (1) follow it or (2) ignore it? | 12 | 13
+10 | No shortcut! Where do you think your mother might be? (1) I know! or (2) No clue, return home | 16 | 17
+11 | Correct! The hooded figure suggests going to your childhood home. Do you (1) remember where it is or (2) return home? | 16 | 17
+12 | The whisper now says "home." Do you (1) go to your old home or (2) return home from here? | 16 | 17
+13 | Good choice! Time to continue. Where do you think your mother might be? (1) I know! or (2) No clue, return home | 16 | 17
+14 | You narrowly escape the cave and read the journal. It has a hint about your mother's location that only you understand. (1) Yes, I get it! or (2) No, I’m lost. | 16 | 17
+15 | The cave closes as you narrowly escape with the journal. It contains a cryptic message. Can you decipher it? (1) Yes! or (2) No, I’m lost. | 16 | 17
+16 | You arrive at your old home. Your mother is there, smiling and waiting for you. She explains the secrets she knows about the king. Together, you'll face whatever comes next. | -1 | -1
+17 | You return home, but your mother remains lost. Perhaps one day you’ll reunite. | -1 | -1
