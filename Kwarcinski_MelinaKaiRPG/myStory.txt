@@ -1,0 +1,17 @@
+1 | On your 18th birthday, you receive a letter about your missing mother. Do you (1) open the letter or (2) ignore it? | 2 | 3
+2 | The letter reveals your mother went into hiding and only you can find her. Will you accept the quest? (1) Yes or (2) No | 4 | 5
+3 | A week later, curiosity drives you to open the letter. It says your mother is alive and you must find her. Will you accept? (1) Yes or (2) No | 4 | 5
+4 | You pack and leave secretly. Your friend Finn catches you. Do you (1) bring him or (2) go alone? | 6 | 7
+5 | Your house is attacked by the king's guards. You flee and reach a fork in the road. Will you go (1) right or (2) left? | 8 | 9
+6 | You and Finn meet a hooded figure who gives a riddle. Answer right for a shortcut. What speaks without a mouth and hears without ears? (1) telephone or (2) echo | 10 | 11
+7 | You hear a whisper calling your mother's name. Do you (1) follow it or (2) ignore it? | 12 | 13
+8 | You find a cave and inside is a journal with your mother's name. Do you (1) grab it and run or (2) read it now? | 14 | 15
+9 | You hear the whisper again. Do you (1) follow it or (2) ignore it? | 12 | 13
+10 | No shortcut! Where do you think your mother might be? (1) I know! or (2) No clue, return home | 16 | 17
+11 | Correct! The hooded figure suggests going to your childhood home. Do you (1) remember where it is or (2) want to return home? | 16 | 17
+12 | The whisper now says "home." Do you (1) go to your old home or (2) return home from here? | 16 | 17
+13 | Good choice! Time to continue. Where do you think your mother might be? (1) I know! or (2) No clue, return home | 16 | 17
+14 | You narrowly escape the cave and read the journal. It has a hint about your mother's location that only you understand. (1) Yes, I get it! or (2) No, I’m lost. | 16 | 17
+15 | The cave closes as you narrowly escape with the journal. It contains a cryptic message. Can you decipher it? (1) Yes! or (2) No, I’m lost. | 16 | 17
+16 | You arrive at your old home. Your mother is there, smiling and waiting for you. She explains the secrets she knows about the king. Together, you'll face whatever comes next. | -1 | -1
+17 | You return home, but your mother remains lost. Perhaps one day you’ll reunite. | -1 | -1
