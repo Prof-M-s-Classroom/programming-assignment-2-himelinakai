@@ -2,27 +2,26 @@
 # CS210 Data Structures SP25
 ## Programming Assignment 2: Text-Based RPG Using Decision Trees
 
-### **Student Name:** `[Your Name]`  
-### **Student ID:** `[Your ID]`  
+### **Student Name: Melina Kai Kwarcinski  
+### **Student ID: 130039946  
 
 ---
 
 ## **1. Project Overview**
 (Provide a brief summary of your RPG game. Describe how it uses a decision tree and how the player interacts with it.)
 
-Example:
-> This project implements a text-based RPG using a **binary decision tree**. Each game event is represented as a node, and the player progresses by choosing between two paths at each stage. The storyline is loaded from an external text file (`story.txt`), which is parsed to construct the decision tree. The game ends when a leaf node (with `-1` as left and right children) is reached.
+> This project uses a binary decision tree in order to implement a text-based RPG. Each of the possible story events is represented by a node. Both the left and right children represent the two next possible events/pathways. The path that the story follows is determined by the choices that the player makes. The story events are loaded from an external text file, and each of the lines in the file is parsed to gather the necessary information about each story event, including the event number, description and the event number of both children. The game will terminate once a leaf node (a node with -1 as both children) is reached, or if the player enters an invalid story choice while playing. 
 
 ---
 
 ## **2. Folder & File Structure**
 (Explain the role of each file in your project.)
 
-- **`main.cpp`** → `[Describe its function]`  
-- **`GameDecisionTree.h`** → `[Explain what this file contains]`  
-- **`Node.h`** → `[Explain what this file contains]`  
-- **`Story.h`** → `[Explain what this file contains]`  
-- **`story.txt`** → `[Explain how the game loads story events from this file]`  
+- **`main.cpp`** → This file calls the two main functions in the GameDecisionTree.h file, effectively running the game itself. It declares a GameDecisionTree object, chooses the text file to read from and sets the desired delimiter chatacter.  
+- **`GameDecisionTree.h`** → This file defines the GameDecisionTree class. It holds the two elements, the root node and unordered map that tracks each story event, the class constructor and the two class functions, loadStoryFromFile() and playGame().These two functions combine elements from all other files and are responsible for the implementation of the decision tree and game play.  
+- **`Node.h`** → This file contains the definition of the Node class. It includes its elements (data, left child and right child) and its constructor.  
+- **`Story.h`** → This file contains the declaration of the Story class, including its elements, default constructor and parameteried constructor. The implementation of the class is done in Story.cpp.
+- **`story.txt`** → This file contains the entire storyline. It has each of the possible story events, which includes the description, its event number as well as the two potential paths from that event. This file is opened and then read line by line. Each line is parsed into the previously mentioned elements and stored in later-used variables. Each of the story events is represented by a node that is stored in an unordered map. Each of the event nodes is then linked based on the defined story pathways. Once all information is collected, the file is closed.
 
 ---
 
