@@ -5,14 +5,14 @@ using namespace std;
 int main() {
     GameDecisionTree<Story> myGame;
 
-    string filename = "story.txt";  // Specify the input file
+    string filename = "myStory.txt";  // Specify the input file
     char delimiter = '|';                // '|' is the delimiter, change if needed
 
     // Load the story data from the file
-    myGame.loadStoryFromFile(filename, delimiter);
+    myGame.loadStoryFromFile("C:\\Users\\honuk\\CS210\\programming-assignment-2-himelinakai\\story.txt", delimiter);
 
     // Start the game
-   // myGame.playGame();
+    myGame.playGame();
 
     return 0;
 }
