@@ -14,7 +14,7 @@ template <typename T>
 class GameDecisionTree {
 private:
     Node<T>* root;
-    unordered_map<int, Node<T>*> eventList;
+    unordered_map<int, Node<T>*> eventList; // Will hold and keep track of all possible events in the story
 
 public:
     // TODO: Constructor
@@ -22,19 +22,23 @@ public:
 
     // TODO: Function to load story data from a text file and build the binary tree
     void loadStoryFromFile(const std::string& filename, char delimiter) {
+        // Opening the story file and remembering to check that it successfully opened
         ifstream file(filename);
         if(!file.is_open()) {
             cerr << "Error opening the story file." << endl;
             return;
         }
 
+        // Declaring all element variables
         string line, desc, eventID, right, left;
         int eventNum, rightNum, leftNum;
+        // This vector will keep track of all of the event numbers
         vector<int> eventIDs;
 
         while (getline(file, line)) {
             stringstream ss(line);
 
+            // Parsing through each line of the text file and collecting the needed elements (event number, description, left child and right child)
             getline(ss, eventID, delimiter);
             eventNum = stoi(eventID);
             //cout << eventNum << endl;
@@ -51,22 +55,20 @@ public:
             rightNum = stoi(right);
             //cout << rightNum << endl;
 
+            // Adding each story event as a new node to the unordered map
+            // Only adds if the event does not already exist since there are some duplicate situations that need to be accounted for
             Story newStory(desc, eventNum, leftNum, rightNum);
             if (eventList.find(eventNum) == eventList.end()) {
                 Node<T>* newEvent = new Node<T>(newStory);
                 eventList[eventNum] = newEvent;
             }
 
-            //cout << eventList[eventNum]->data.eventNumber << endl;
-
             if (root == nullptr) {
                 root = eventList[eventNum];
             }
-
-            //cout << root->data.leftEventNumber << endl;
-
         }
 
+        // Traverse through the unordered map so that the respective left and right children can be linked
         Node<T> *curr;
         for (int i = 0; i < eventIDs.size(); i++) {
             curr = eventList[eventIDs.at(i)];
@@ -79,6 +81,7 @@ public:
             }
         }
 
+        // Remember to free the vector memory and close the file
         eventIDs.clear();
         file.close();
 
@@ -86,16 +89,19 @@ public:
 
     // TODO: Function to start the game and traverse the tree based on user input
     void playGame() {
+        // Ensure to check that a valid game can be played
         if (root == nullptr) {
             cerr << "Cannot start yet, Game DecisionTree is empty." << endl;
             return;
         }
 
+        // Traverse through the decision tree based on the choices that the player makes
         Node<T>* curr = root;
         while (curr) {
             int userChoice = -1;
             cout << curr->data.description << endl;
 
+            // Game ends when the player reaches a leaf on the tree
             if (!curr->left && !curr->right) {
                 cout << "\nGame is over!" << endl;
                 return;
